@@ -13,6 +13,7 @@ const Header = () => {
 				<Link to="/">
 					<div className="goBack">Back</div>
 				</Link>
+
 				<ul>
 					<Link to="/cats/favorites">
 						<li>Saved</li>

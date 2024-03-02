@@ -10,6 +10,10 @@
 .Header .catNav {
 	display: flex;
 	align-items: center;
+	border-radius: 12px;
+	padding: 10px;
+	font-size: larger;
+	font-weight: 700;
 }
 
 .Header ul {
@@ -20,9 +24,12 @@
 .Header a {
 	text-decoration: none;
 	color: white;
-	border: 5px solid white;
 }
 
 .Header .hello {
 	color: white;
+}
+
+.Header button {
+	border-radius: 12px;
 }
