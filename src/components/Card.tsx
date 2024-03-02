@@ -14,7 +14,7 @@ const Card = ({ catProp }: Props) => {
 	const { user } = useContext(AuthContext);
 	return (
 		<li className="Card">
-			<h3 className="catName">{catProp.name}</h3>
+			<h3 className="catName">{catProp.id}</h3>
 			{catProp.url ? (
 				<Link to={`/cats/${catProp.id}`}>
 					<img src={catProp.url} alt={catProp.id} />
