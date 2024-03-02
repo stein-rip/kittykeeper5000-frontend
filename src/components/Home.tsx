@@ -35,7 +35,7 @@ const Home = () => {
 	return (
 		<div className="Home">
 			<CardList allcats={cats} />
-			<button onClick={handleRefresh}>proceed to the next kitty</button>
+			{/* <button onClick={handleRefresh}>proceed to the next kitty</button> */}
 		</div>
 	);
 };

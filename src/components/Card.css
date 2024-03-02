@@ -1,8 +1,9 @@
 .Card {
 	background-color: black;
 	display: flex;
+	flex-direction: column;
+	align-items: center;
 	list-style-type: none;
-	margin-top: 100px;
 	margin-bottom: 100px;
 	margin-right: 20px;
 }
@@ -10,3 +11,16 @@
 	height: 50vw;
 	margin-right: 12px;
 }
+.Card button {
+	width: 100px;
+	background-color: white;
+	font-size: large;
+	font-weight: 700;
+	padding: 10px;
+}
+
+.Card.catName {
+	color: white;
+}
+
+.Card .;

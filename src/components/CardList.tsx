@@ -10,7 +10,7 @@ const CardList = ({ allcats }: Props) => {
 	return (
 		<ul className="CardList">
 			{allcats.map((item) => (
-				<Card cat={item} />
+				<Card catProp={item} key={item.id} />
 			))}
 		</ul>
 	);
